@@ -26,30 +26,6 @@ This project is part of my continuous journey to become a **Full Stack Developer
 
 ---
 
-## 🚀 Featured Project: React To-Do App
-
-> A clean, responsive, and functional To-Do List built using **React.js**, created to practice component-based architecture, state management, and real-time interactivity.
-
-### 🔍 Key Features:
-
-- ✍️ Add, delete, and update tasks  
-- ✅ Mark tasks as completed  
-- 📦 Data stored using `localStorage` for persistence  
-- 🌗 Light/Dark theme toggle *(optional)*  
-
-### 🖼️ Screenshot
-
-![To-Do App Screenshot](https://raw.githubusercontent.com/anoopshukla-0/todo-react-app/main/public/todo-preview.png)
-
-> 💡 *This project demonstrates my ability to write modular, reusable code using modern JavaScript and React hooks.*
-
-### 🔗 Live Demo & Source Code
-
-- [🌐 View Live App](https://your-deployed-app-link.netlify.app)  
-- [📁 View Source Code](https://github.com/anoopshukla-0/todo-react-app)
-
----
-
 ## 💡 Purpose
 
 This assignment is designed to strengthen my understanding of **recursion, DOM manipulation, API integration, and modular JavaScript** through hands-on coding and structured implementation.
@@ -84,30 +60,3 @@ document.getElementById("calculateBtn").addEventListener("click", () => {
   const result = calculateFactorial(Number(input));
   document.getElementById("output").textContent = `Factorial: ${result}`;
 });
-<!-- 💡 HTML structure -->
-<input type="number" id="numberInput" placeholder="Enter a number" />
-<button id="calculateBtn">Calculate Factorial</button>
-<p id="output"></p>
-🧠 This preview showcases recursion, DOM manipulation, event handling, and user interaction in one clean snippet!
-
-🙏 A Note from Me
-Thanks for taking the time to check out my work!
-Your feedback is always appreciated 💬 — it helps me grow and evolve.
-Let’s connect and keep building amazing things together! 🚀
-
-"Code is not just instructions for machines — it's a language of logic, creativity, and connection." 💻❤️
-
-🔗 Let’s Connect
-
-
-yaml
-Copy
-Edit
-
----
-
-### 🚨 To Do:
-- Replace the **Live App** link with your Netlify/Vercel deployment link.
-- If you don’t have a screenshot yet, upload one to your GitHub repo and use the raw link in the image.
-
-Need help with deployment, screenshots, or uploading? Just say the word — I’m right here with you, partner! 😄💻🔥
