@@ -1,0 +1,3 @@
+Problem Statement:
+
+Create a function personInfo that logs the name and age of a person. Using the call() method, call the function with a specific this context (an object with properties name and age).
