@@ -45,18 +45,16 @@ By completing this assignment, I have:
 
 ---
 
-## 🧪 Preview of Code Logic
+## 🙏 A Note from Me
 
-```javascript
-// 📌 Recursion + DOM example: Calculating factorial
+Thank you for taking the time to check out my work!  
+Your feedback is always appreciated 💬 — it helps me learn, improve, and grow faster.  
+Let’s connect and grow together on this exciting tech journey! 🚀
 
-function calculateFactorial(n) {
-  if (n === 0 || n === 1) return 1;
-  return n * calculateFactorial(n - 1);
-}
+> _"Code is not just instructions for machines — it's a language of logic, creativity, and connection."_ 💻❤️
 
-document.getElementById("calculateBtn").addEventListener("click", () => {
-  const input = document.getElementById("numberInput").value;
-  const result = calculateFactorial(Number(input));
-  document.getElementById("output").textContent = `Factorial: ${result}`;
-});
+---
+
+🔗 **Let’s Connect**  
+- [🌐 LinkedIn](https://www.linkedin.com/in/anoop-shukla-446010243/)  
+- [💻 GitHub](https://github.com/anoopshukla-0)
