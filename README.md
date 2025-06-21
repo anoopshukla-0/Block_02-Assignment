@@ -26,11 +26,27 @@ This project is part of my continuous journey to become a **Full Stack Developer
 
 ---
 
-## 📸 Preview / Demo
+## 🚀 Featured Project: React To-Do App
 
-![Working Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3MwOWt0eXBuZDhxYXV3a25zMm01djFqOXA5dTVkZHZjd3Z1amdiZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Nx0rz3jtxtEre/giphy.gif)
+> A clean, responsive, and functional To-Do List built using **React.js**, created to practice component-based architecture, state management, and real-time interactivity.
 
-> *(Optional: You can replace this GIF with a real project demo if you have one!)*
+### 🔍 Key Features:
+
+- ✍️ Add, delete, and update tasks  
+- ✅ Mark tasks as completed  
+- 📦 Data stored using `localStorage` for persistence  
+- 🌗 Light/Dark theme toggle *(optional)*  
+
+### 🖼️ Screenshot
+
+![To-Do App Screenshot](https://raw.githubusercontent.com/anoopshukla-0/todo-react-app/main/public/todo-preview.png)
+
+> 💡 *This project demonstrates my ability to write modular, reusable code using modern JavaScript and React hooks.*
+
+### 🔗 Live Demo & Source Code
+
+- [🌐 View Live App](https://your-deployed-app-link.netlify.app)  
+- [📁 View Source Code](https://github.com/anoopshukla-0/todo-react-app)
 
 ---
 
@@ -53,17 +69,45 @@ By completing this assignment, I have:
 
 ---
 
-## 🙏 A Note from Me
+## 🧪 Preview of Code Logic
 
-Thanks for taking the time to check out my work!  
-Your feedback is always appreciated 💬 — it helps me grow and evolve.  
+```javascript
+// 📌 Recursion + DOM example: Calculating factorial
+
+function calculateFactorial(n) {
+  if (n === 0 || n === 1) return 1;
+  return n * calculateFactorial(n - 1);
+}
+
+document.getElementById("calculateBtn").addEventListener("click", () => {
+  const input = document.getElementById("numberInput").value;
+  const result = calculateFactorial(Number(input));
+  document.getElementById("output").textContent = `Factorial: ${result}`;
+});
+<!-- 💡 HTML structure -->
+<input type="number" id="numberInput" placeholder="Enter a number" />
+<button id="calculateBtn">Calculate Factorial</button>
+<p id="output"></p>
+🧠 This preview showcases recursion, DOM manipulation, event handling, and user interaction in one clean snippet!
+
+🙏 A Note from Me
+Thanks for taking the time to check out my work!
+Your feedback is always appreciated 💬 — it helps me grow and evolve.
 Let’s connect and keep building amazing things together! 🚀
 
-> _"Code is not just instructions for machines — it's a language of logic, creativity, and connection."_ 💻❤️
+"Code is not just instructions for machines — it's a language of logic, creativity, and connection." 💻❤️
+
+🔗 Let’s Connect
+
+
+yaml
+Copy
+Edit
 
 ---
 
-## 🔗 Let’s Connect
+### 🚨 To Do:
+- Replace the **Live App** link with your Netlify/Vercel deployment link.
+- If you don’t have a screenshot yet, upload one to your GitHub repo and use the raw link in the image.
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Anoop%20Shukla-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/anoop-shukla-446010243/)  
-[![GitHub Badge](https://img.shields.io/badge/GitHub-anoopshukla--0-darkgray?style=flat-square&logo=github)](https://github.com/anoopshukla-0)
+Need help with deployment, screenshots, or uploading? Just say the word — I’m right here with you, partner! 😄💻🔥
