@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interactive Div Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Interactive Div Controller</h1>
+
+    <label for="color-input">Enter Background Color:</label>
+    <input
+      type="text"
+      id="color-input"
+      placeholder="e.g., blue, #f0f0f0"
+    /><br /><br />
+
+    <label for="text-input">Enter New Text:</label>
+    <input
+      type="text"
+      id="text-input"
+      placeholder="e.g., Hello World"
+    /><br /><br />
+
+    <button id="change-bg">Change Background</button>
+    <button id="update-text">Update Text</button>
+
+    <div id="target-box">This is the default content of the box.</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

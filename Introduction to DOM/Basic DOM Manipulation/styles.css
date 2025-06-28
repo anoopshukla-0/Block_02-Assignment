@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.bold-blue {
+  font-weight: bold;
+  color: blue;
+}
+
+.italic-red {
+  font-style: italic;
+  color: red;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
