@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anoop's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm a passionate web developer who loves building clean,
+        functional, and aesthetic web applications.
+      </p>
+      <p>A picture of me:</p>
+      <img
+        src="your-photo.jpg"
+        alt="Your photo"
+        style="width: 150px; height: auto; border-radius: 10px"
+      />
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Project One: Personal Blog</h3>
+        <p><em>Screenshot of my personal blog project</em></p>
+        <img src="blog-screenshot.jpg" alt="Personal Blog Screenshot" />
+        <p>
+          A personal blog where I write about web development, programming, and
+          tech.
+        </p>
+        <a href="#" target="_blank">View Project</a>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Project Two: E-commerce Site</h3>
+        <p><em>Screenshot of my e-commerce project</em></p>
+        <img
+          src="ecommerce-screenshot.jpg"
+          alt="E-commerce Project Screenshot"
+        />
+        <p>
+          An e-commerce site simulating a real-world online shopping experience.
+        </p>
+        <a href="#" target="_blank">View Project</a>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Anoop's Portfolio</p>
+      <p>Follow me on <a href="#">Twitter</a> | <a href="#">GitHub</a></p>
+    </footer>
+  </body>
+</html>
