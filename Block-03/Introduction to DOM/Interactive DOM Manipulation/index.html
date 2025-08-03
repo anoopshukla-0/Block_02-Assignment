@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Div Manipulator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f0f0f0;
+    }
+
+    input, button {
+      padding: 8px;
+      margin: 10px 5px;
+    }
+
+    #displayBox {
+      margin-top: 20px;
+      padding: 30px;
+      border: 2px solid #000;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 18px;
+      background-color: lightgray;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🎯 Customize Your Box</h2>
+
+  <input type="text" id="colorInput" placeholder="Enter color (e.g. red, #ff0000)">
+  <button id="changeColorBtn">Change Background</button><br>
+
+  <input type="text" id="textInput" placeholder="Enter new text">
+  <button id="updateTextBtn">Update Text</button>
+
+  <div id="displayBox">This is your editable div!</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
